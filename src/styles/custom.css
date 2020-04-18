@@ -1,0 +1,13 @@
+body{
+  color: black;
+}
+.primary{
+  background: pink !important;
+}
+.secondery{
+  background: grey !important;
+  color:  white !important;
+}
+.bodyPart{
+  min-height: 750px;
+}
