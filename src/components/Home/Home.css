@@ -1,0 +1,10 @@
+.fontc{
+  font-size: 37px !important;
+  color: fuchsia;
+  font-family: serif;
+}
+.cbut{
+  background-color: fuchsia;
+  margin-left: 190%;
+  margin-top: -16%;
+}

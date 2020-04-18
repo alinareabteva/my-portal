@@ -1,0 +1,111 @@
+
+form{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 40px 0;
+}
+
+input{
+  display: none;
+}
+
+label{
+  background: #faa7b7;
+  color: #fff;
+  font-weight: 700;
+  padding: 5px 15px;
+  border-radius: 10px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+input:checked~label{
+  background: #a8b4fc;
+  padding: 8px 15px;
+  border-radius: 10px;
+  box-shadow: 5px 2px 15px #a8b4fc80;
+}
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin-left: -70px;
+  width: 1300px;
+}
+
+li{
+  margin: 10px 10px;
+}
+
+figure{
+  z-index: 1;
+  min-width: 300px;
+  overflow: hidden;
+  margin: 0 20px;
+  animation: show .8s ease;
+}
+
+@keyframes show {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+img{
+  width: 320px;
+  height: 320px;
+  left: 0;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 10px 15px #a8b4fc30;
+}
+
+.nameim{
+    text-align: center;
+    margin: 0;
+    background-color: fuchsia;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+figcaption{
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+figure figcaption{
+  margin: 0;
+  position: relative;
+  z-index: -1;
+}
+
+figure:hover figcaption{
+  opacity: 1;
+  transform: translateY(-19px);
+}
+
+figcaption{
+  opacity: 0;
+  transform: translateY(-200px);
+  background: white;
+  border-radius: 0  0 20px 20px;
+  padding: 30px 0 20px 0;
+  transition: .3s;
+}
+
+span{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #969696;
+}
+
+.photo-source{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #969696;
+  margin-bottom: 40px;
+}
